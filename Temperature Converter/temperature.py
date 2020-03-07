@@ -20,10 +20,10 @@ label.grid(row=0,column=0)
 entry = Entry(win,font=('arial',20,'bold'))
 entry.grid(row=1,column=0)
 
-button1 = Button(win,text="Celsius to Fahrenheit",font=('arial',15,'bold'),command=celsius_to_farhenheit)
+button1 = Button(win,text="Celsius to Fahrenheit",font=('arial',10,'bold'),command=celsius_to_farhenheit)
 button1.grid(row=3,column=0)
 
-button2 = Button(win,text="Fahrenheit to Celsius",font=('arial',15,'bold'),command=farhenheit_to_celsius)
+button2 = Button(win,text="Convert Fahrenheit to Celsius",font=('arial',10,'bold'),command=farhenheit_to_celsius)
 button2.grid(row=4,column=0)
 
 
