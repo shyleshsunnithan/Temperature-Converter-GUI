@@ -14,7 +14,7 @@ def farhenheit_to_celsius():
     answer = (value - 32)*5/9
     showinfo("Answer",f"{value} F = {answer} C") 
 
-label = Label(win,text="Enter Temperature Here:",font=('arial',15,'bold'))
+label = Label(win,text="Enter Temperature For Conversion:",font=('arial',15,'bold'))
 label.grid(row=0,column=0)
 
 entry = Entry(win,font=('arial',20,'bold'))
