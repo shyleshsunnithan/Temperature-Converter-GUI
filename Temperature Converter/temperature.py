@@ -7,12 +7,12 @@ win.title("Temperature Converter")
 def celsius_to_farhenheit():
     value = int(entry.get())
     answer = (value * 9/5)+32
-    showinfo("Answer",f"{value} C = {answer} F") 
+    showinfo("Converted Temperature",f"{value} C = {answer} F") 
 
 def farhenheit_to_celsius():
     value = int(entry.get())
     answer = (value - 32)*5/9
-    showinfo("Answer",f"{value} F = {answer} C") 
+    showinfo("Converted Temperature",f"{value} F = {answer} C") 
 
 label = Label(win,text="Enter Temperature For Conversion:",font=('arial',15,'bold'))
 label.grid(row=0,column=0)
